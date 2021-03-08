@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 10px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+ h1 {
+   text-align: center;
+   font-size: 30px;
+ }
+
+ #searchInput {
+   width: 98vw;
+   margin-top: 10px;
+   margin-bottom: 20px
+ }
+
+ .marginStandard {
+   margin-top: 10px;
+   margin-bottom: 1opx;
+   margin-right: 10px;
+ }
+
+/* .flexColumn {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100vw;
+}
+
+.flexItem {
+  flex-basis: 100%;
+  width: 50%;
+} */
